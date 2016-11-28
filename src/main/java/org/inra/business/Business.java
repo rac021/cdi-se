@@ -1,6 +1,6 @@
 
 
-package org.inra.cdi.se;
+package org.inra.business;
 
 /**
  *

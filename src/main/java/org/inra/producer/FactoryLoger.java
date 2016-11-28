@@ -1,5 +1,5 @@
 
-package org.inra.logger.producer ;
+package org.inra.producer ;
 
 import java.util.logging.Logger;
 import javax.enterprise.inject.Produces;
@@ -9,7 +9,7 @@ import javax.enterprise.inject.spi.InjectionPoint;
  *
  * @author ryahiaoui
  */
-public class Producers {
+public class FactoryLoger {
     
     
     @Produces  

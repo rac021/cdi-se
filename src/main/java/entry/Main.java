@@ -1,5 +1,8 @@
+package entry;
 
-import org.inra.cdi.se.FacadeService;
+
+import org.inra.controler.FacadeService;
+import org.inra.controler.FacadeService;
 import org.jboss.weld.environment.se.Weld;
 import org.jboss.weld.environment.se.WeldContainer;
 
@@ -15,8 +18,8 @@ public class Main {
         WeldContainer container = weld.initialize() ;
         
         FacadeService application = container.instance()
-                                                .select(FacadeService.class)
-                                                .get() ;
+                                             .select( FacadeService.class )
+                                             .get() ;
         application.process() ;
         weld.shutdown()       ;
 
